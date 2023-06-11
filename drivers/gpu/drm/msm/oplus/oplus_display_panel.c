@@ -12,6 +12,7 @@
 ******************************************************************/
 #include "oplus_display_panel.h"
 
+int oplus_display_panel_init(void);
 int oplus_display_panel_set_hecate_info(void *buf);
 
 #define PANEL_IOCTL_DEF(ioctl, _func) \
