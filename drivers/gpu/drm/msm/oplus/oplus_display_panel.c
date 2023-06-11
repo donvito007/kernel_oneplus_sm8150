@@ -207,6 +207,7 @@ static const struct file_operations panel_ops =
 	.write              = panel_write,
 };
 
+int oplus_display_panel_init(void);
 static int __init oplus_display_panel_init()
 {
 	int rc = 0;
